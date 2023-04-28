@@ -1,0 +1,241 @@
+{
+  "fonts": [
+
+   {"fontName": "Aileron-Regular.otf",
+    "displayName": "Aileron"
+   },
+   {"fontName": "AmaticSC-Regular.ttf",
+    "displayName": "AmaticSC"
+   },
+   {"fontName": "ArialMT.ttf",
+    "displayName": "ArialMT"
+   },
+   {"fontName": "Asap-Bold.otf",
+    "displayName": "Asap-Bold"
+   },
+   {"fontName": "Asap-BoldItalic.otf",
+    "displayName": "Asap-BoldItalic"
+   },
+   {"fontName": "Asap-Italic.otf",
+    "displayName": "Asap-Italic"
+   },
+   {"fontName": "Asap-Regular.otf",
+    "displayName": "Asap-Regular"
+   },
+   {"fontName": "Bebas.ttf",
+    "displayName": "Bebas"
+   },
+   {"fontName": "Blackout2AM.ttf",
+    "displayName": "Blackout2AM"
+   },
+   {"fontName": "BlackoutMidnight.ttf",
+    "displayName": "BlackoutMidnight"
+   },
+   {"fontName": "BlackoutSunrise.ttf",
+    "displayName": "BlackoutSunrise"
+   },
+   {"fontName": "BlendaScript.otf",
+    "displayName": "BlendaScript"
+   },
+   {"fontName": "CaviarDreams.ttf",
+    "displayName": "CaviarDreams"
+   },
+   {"fontName": "comicandy.ttf",
+    "displayName": "Comicandy"
+   },
+   {"fontName": "Crom.ttf",
+    "displayName": "Crom"
+   },
+   {"fontName": "Damion.ttf",
+    "displayName": "Damion"
+   },
+   {"fontName": "FredokaOne-Regular.otf",
+    "displayName": "FredokaOne-Regular"
+   },
+   {"fontName": "Friday13.otf",
+    "displayName": "Friday13"
+   },
+   {"fontName": "GargleCdRg-Bold.ttf",
+    "displayName": "GargleCdRg-Bold"
+   },
+   {"fontName": "GargleCdRg-BoldItalic.ttf",
+    "displayName": "GargleCdRg-BoldItalic"
+   },
+   {"fontName": "GargleCdRg-Italic.ttf",
+    "displayName": "GargleCdRg-Italic"
+   },
+   {"fontName": "GargleCdRg-Regular.ttf",
+    "displayName": "GargleCdRg-Regular"
+   },
+   {"fontName": "GargleExRg-Bold.ttf",
+    "displayName": "GargleExRg-Bold"
+   },
+   {"fontName": "GargleExRg-BoldItalic.ttf",
+    "displayName": "GGargleExRg-BoldItalic"
+   },
+   {"fontName": "GargleExRg-Italic.ttf",
+    "displayName": "GargleExRg-Italic"
+   },
+   {"fontName": "GargleExRg-Regular.ttf",
+    "displayName": "GargleExRg-Regular"
+   },
+   {"fontName": "GargleRg-Bold.ttf",
+    "displayName": "GargleRg-Bold"
+   },
+   {"fontName": "GargleRg-BoldItalic.ttf",
+    "displayName": "GargleRg-BoldItalic"
+   },
+   {"fontName": "GargleRg-Italic.ttf",
+    "displayName": "GargleRg-Italic"
+   },
+   {"fontName": "GargleRg-Regular.ttf",
+    "displayName": "GargleRg-Regular"
+   },
+   {"fontName": "Homoarakhn.ttf",
+    "displayName": "Homoarakhn"
+   },
+   {"fontName": "IpanemaSecco.ttf",
+    "displayName": "Homoarakhn"
+   },
+   {"fontName": "Magnolia-Script.otf",
+    "displayName": "Magnolia-Script"
+   },
+   {"fontName": "Mobsters.ttf",
+    "displayName": "Mobsters"
+   },
+   {"fontName": "NimbusMono-Bold.otf",
+    "displayName": "NimbusMono-Bold"
+   },
+   {"fontName": "NimbusMono-BoldOblique.otf",
+    "displayName": "NimbusMono"
+   },
+   {"fontName": "NimbusMono-Oblique.otf",
+    "displayName": "NimbusMono-Oblique"
+   },
+   {"fontName": "NimbusMono-Regular.otf",
+    "displayName": "NimbusMono-Regular"
+   },
+   {"fontName": "Reglo-Bold.otf",
+    "displayName": "Reglo-Bold"
+   },
+   {"fontName": "RifficFree-Bold.ttf",
+    "displayName": "RifficFree-Bold"
+   },
+   {"fontName": "Scriptina.ttf",
+    "displayName": "Scriptina"
+   },
+   {"fontName": "UniSansHeavyCAPS.otf",
+    "displayName": "UniSansHeavyCAPS"
+   },
+   {"fontName": "UniSansHeavyItalicCAPS.otf",
+    "displayName": "UniSansHeavyItalic"
+   },
+   {"fontName": "UniSansThinCAPS.otf",
+    "displayName": "UniSansThinCAPS"
+   },
+   {"fontName": "UniSansThinItalicCAPS.otf",
+    "displayName": "UniSansThinItalic"
+   },
+
+
+
+    {"fontName": "30PackGirl-Bold.ttf",
+     "displayName": "30PackGirl-Bold"
+    },
+    {"fontName": "AnnaLisaFont71SupCon.ttf",
+     "displayName": "AnnaLisaFont"
+    },
+    {"fontName": "AppleGaramond-Bold.ttf",
+     "displayName": "AppleGaramond"
+    },
+    {"fontName": "BaarAntroposDisplay.ttf",
+     "displayName": "BaarAntroposDisplay"
+    },
+    {"fontName": "BankGothicBT-Light.ttf",
+     "displayName": "BankGothicBT"
+    },
+    {"fontName": "BickhamScriptMM.ttf",
+     "displayName": "BickhamScriptMM"
+    },
+    {"fontName": "BigFictionText.ttf",
+     "displayName": "BigFictionText"
+    },
+    {"fontName": "BlessedDay.ttf",
+     "displayName": "BlessedDay"
+    },
+    {"fontName": "Bringthanoize.ttf",
+     "displayName": "Bringthanoize"
+    },
+    {"fontName": "CajunBoogie.ttf",
+     "displayName": "CajunBoogie"
+    },
+    {"fontName": "Cartwright.ttf",
+     "displayName": "Cartwright"
+    },
+    {"fontName": "FreebooterScript.ttf",
+     "displayName": "FreebooterScript"
+    },
+    {"fontName": "GoodName74SupCon.ttf",
+     "displayName": "GoodName74SupCon"
+    },
+    {"fontName": "HangingByaThread.ttf",
+     "displayName": "HangingByaThread"
+    },
+    {"fontName": "Hardkaze.ttf",
+     "displayName": "Hardkaze"
+    },
+    {"fontName": "Liquidism.ttf",
+     "displayName": "Liquidism"
+    },
+    {"fontName": "Mickey.ttf",
+     "displayName": "Mickey"
+    },
+    {"fontName": "MyriadPro-Light.otf",
+     "displayName": "MyriadPro"
+    },
+    {"fontName": "OldEnglish.ttf",
+     "displayName": "OldEnglish"
+    },
+   {"fontName": "Pacifico.ttf",
+    "displayName": "Pacifico"
+   },
+   {"fontName": "Riven.ttf",
+    "displayName": "Riven"
+   },
+   {"fontName": "SanFranciscoDisplay-Medium.otf",
+    "displayName": "SanFrancisco"
+   },
+   {"fontName": "SFUIDisplay-Bold.otf",
+    "displayName": "SFUIDisplay"
+   },
+   {"fontName": "SFUIDisplay-Heavy.ttf",
+    "displayName": "SFUID-Heavy"
+   },
+   {"fontName": "SFUIDisplay-Light.otf",
+    "displayName": "SFUID-Light"
+   },
+   {"fontName": "SFUIDisplay-Medium.ttf",
+    "displayName": "SFUID-Medium"
+   },
+   {"fontName": "SFUIDisplay-Regular.ttf",
+    "displayName": "SFUID-Regular"
+   },
+   {"fontName": "SFUIDisplay-Semibold.ttf",
+    "displayName": "SFUID-Semibold"
+   },
+   {"fontName": "SFUIDisplay-Thin.otf",
+    "displayName": "SFUID-Thin"
+   },
+   {"fontName": "SFUIDisplay-Ultralight.otf",
+    "displayName": "SFUID-Ultralight"
+   },
+   {"fontName": "SwishButtons.ttf",
+    "displayName": "SwishButtons"
+   },
+   {"fontName": "ZipperbluesOutline.ttf",
+    "displayName": "ZipperbluesOutline"
+   }
+  ]
+}
+
+

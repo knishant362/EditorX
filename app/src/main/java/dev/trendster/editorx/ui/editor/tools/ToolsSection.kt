@@ -3,6 +3,7 @@ package dev.trendster.editorx.ui.editor.tools
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
+import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -14,6 +15,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ColorFilter
@@ -22,6 +24,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import dev.trendster.editorx.R
 import dev.trendster.editorx.ui.editor.EditorScreen
+import dev.trendster.editorx.ui.editor.tools.font.FontSection
 
 @Composable
 fun ToolsSection() {
@@ -35,6 +38,15 @@ fun ToolsSection() {
 
     val selectedButtonState = rememberSaveable { mutableStateOf(0) }
 
+//    when(selectedButtonState.value) {
+//        0 -> { FontSection(localFonts = , onFontSelected = )   }
+//        1 -> {  }
+//        2 -> {}
+//        3 -> {}
+//        4 -> {}
+//
+//    }
+
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -43,7 +55,7 @@ fun ToolsSection() {
                 color = Color.White
             ),
     ) {
-        LazyRow {
+        LazyRow(horizontalArrangement = Arrangement.SpaceBetween) {
             items(items = tools) { toolEntity ->
                 Tool(
                     isSelected = selectedButtonState.value == toolEntity.id,
@@ -59,8 +71,12 @@ fun ToolsSection() {
 fun Tool(isSelected: Boolean, toolEntity: ToolEntity, onItemClick: (Int) -> Unit) {
     Column(
         modifier = Modifier
-            .padding(horizontal = 8.dp)
+            .padding(horizontal = 12.dp, vertical = 6.dp)
+            .fillMaxWidth(),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        val color = if (isSelected) Color.Black else Color.LightGray
         Image(
             painter = painterResource(id = toolEntity.icon),
             contentDescription = "Tool",
@@ -68,9 +84,12 @@ fun Tool(isSelected: Boolean, toolEntity: ToolEntity, onItemClick: (Int) -> Unit
                 .size(28.dp)
                 .padding(4.dp)
                 .clickable { onItemClick.invoke(toolEntity.id) },
-            colorFilter = ColorFilter.tint(color = if (isSelected) Color.Cyan else Color.LightGray),
+            colorFilter = ColorFilter.tint(color = color),
         )
-        Text(text = toolEntity.title, color = if (isSelected) Color.Cyan else Color.LightGray)
+        Text(
+            text = toolEntity.title,
+            color = color,
+        )
     }
 }
 
